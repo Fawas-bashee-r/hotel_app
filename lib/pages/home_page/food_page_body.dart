@@ -259,7 +259,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
                   )
                 ],
                 borderRadius: BorderRadius.circular(30),
-                // color: index.isEven ? Color(0xFF69c5df) : Color(0xFF9294cc),
+                color: index.isEven ? Color(0xFF69c5df) : Color(0xFF9294cc),
                 image: const DecorationImage(
                   fit: BoxFit.cover,
                   image: AssetImage("assets/image/download.jpg"),
